@@ -28,6 +28,7 @@ import android.content.Intent;
 import android.content.pm.ActivityInfo;
 import android.content.pm.PackageManager.NameNotFoundException;
 import android.os.Bundle;
+import android.support.v4.app.FragmentActivity;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -89,7 +90,7 @@ import android.widget.FrameLayout;
  * @see GDActivity#setActionBarContentView(View, LayoutParams)
  * @author Cyril Mottier
  */
-public class GDActivity extends Activity implements ActionBarActivity {
+public class GDActivity extends FragmentActivity implements ActionBarActivity {
 
     private static final String LOG_TAG = GDActivity.class.getSimpleName();
 
